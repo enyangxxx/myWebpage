@@ -20,6 +20,7 @@
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
+    padding: 0px;
     /*background-color: #3b3e40;*/
     background-image: url("../img/header.jpg");
     background-size: cover;
@@ -36,6 +37,12 @@
 .jumbotron p {
     font-weight: bolder;
     font-size: larger;
+}
+
+.jumbotron .container {
+    width: 100%;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 body {
